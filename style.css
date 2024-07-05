@@ -26,6 +26,14 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
+img {
+  background: #f9f7fe;
+  padding: 40px;
+  /*width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 199px;*/
+}
 
 p {
   font-size: 18px;
