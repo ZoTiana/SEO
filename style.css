@@ -99,42 +99,104 @@ p {
   padding: 30px 50px;
 }
 
-.contact {
-  margin: 90px 0;
-}
-.about-images,
-.about-images-content {
-  height: 370px;
-}
-.yoga-grid,
-.weather-app-grid,
-.yogurt-grid {
-  background: var(--secondary-color);
-  height: 370px;
-}
-
-.yoga-about {
-  background: var(--secondary-color);
-  display: block;
-  margin: 80px 30px;
-  width: 80%;
-}
-.weather-app-about {
-  display: block;
-  margin: 60px 30px;
-  width: 80%;
-}
-.yogurt-about {
-  display: block;
-  width: 80%;
-  position: relative;
-  left: 20px;
-}
 @media (max-width: 768px) {
   .yoga-button,
   .weather-app-button,
   .yogurt-button {
     display: block;
     text-align: center;
+  }
+  .contact {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .contact h2,
+  .contact a {
+    font-size: 30px;
+  }
+  .weather-app-grid,
+  .yogurt-grid {
+    margin-top: 20px;
+  }
+  .yogurt-grid {
+    margin-bottom: 20px;
+  }
+  .yogurt-about {
+    height: 90%;
+    width: 90%;
+  }
+}
+/*@media (min-width: 768px) {
+  .contact {
+    margin: 90px 0;
+  }
+  .about-images,
+  .about-images-content {
+    height: 370px;
+  }
+  .yoga-grid {
+    position: relative;
+    top: 20px;
+  }
+  .yoga-grid,
+  .weather-app-grid,
+  .yogurt-grid {
+    background: var(--secondary-color);
+    height: 370px;
+  }
+
+  .yoga-about {
+    background: var(--secondary-color);
+    display: block;
+    margin: 80px 30px;
+    width: 80%;
+  }
+  .weather-app-about {
+    display: block;
+    margin: 60px 30px;
+    width: 80%;
+  }
+  .yogurt-about {
+    display: block;
+    width: 80%;
+    position: relative;
+    left: 18px;
+    height: 98%;
+  }
+}*/
+@media (min-width: 992px) {
+  .contact {
+    margin: 90px 0;
+  }
+  .about-images,
+  .about-images-content {
+    height: 370px;
+  }
+  .yoga-grid {
+  }
+  .yoga-grid,
+  .weather-app-grid,
+  .yogurt-grid {
+    background: var(--secondary-color);
+    height: 370px;
+  }
+
+  .yoga-about {
+    background: var(--secondary-color);
+    display: block;
+    margin: 80px 30px;
+    width: 80%;
+  }
+  .weather-app-about {
+    display: block;
+    margin: 60px 30px;
+    width: 80%;
+  }
+  .yogurt-about {
+    display: block;
+    width: 80%;
+    position: relative;
+    left: 20px;
+    height: 98%;
   }
 }
