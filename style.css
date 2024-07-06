@@ -102,23 +102,33 @@ p {
 .contact {
   margin: 90px 0;
 }
+.about-images,
+.about-images-content {
+  height: 370px;
+}
 .yoga-grid,
 .weather-app-grid,
 .yogurt-grid {
   background: var(--secondary-color);
+  height: 370px;
 }
+
 .yoga-about {
   background: var(--secondary-color);
   display: block;
-  margin: 100px 0;
-  width: 500px;
+  margin: 80px 30px;
+  width: 80%;
 }
 .weather-app-about {
   display: block;
-  margin: 80px 0;
+  margin: 60px 30px;
+  width: 80%;
 }
 .yogurt-about {
-  width: 90%;
+  display: block;
+  width: 80%;
+  position: relative;
+  left: 20px;
 }
 @media (max-width: 768px) {
   .yoga-button,
