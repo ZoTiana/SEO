@@ -102,6 +102,24 @@ p {
 .contact {
   margin: 90px 0;
 }
+.yoga-grid,
+.weather-app-grid,
+.yogurt-grid {
+  background: var(--secondary-color);
+}
+.yoga-about {
+  background: var(--secondary-color);
+  display: block;
+  margin: 100px 0;
+  width: 500px;
+}
+.weather-app-about {
+  display: block;
+  margin: 80px 0;
+}
+.yogurt-about {
+  width: 90%;
+}
 @media (max-width: 768px) {
   .yoga-button,
   .weather-app-button,
@@ -109,41 +127,4 @@ p {
     display: block;
     text-align: center;
   }
-  /*.yoga-container,
-  .weather-app-container,
-  .yogurt-container {
-    background: red;
-    width: 100%;
-    height: 380px;
-  }
-  .weather-app-container {
-    margin: 18px 50px;
-  }
-  .weather-app-container,
-  .yogurt-container {
-    margin-top: 18px;
-  }
-  .yoga-container {
-  }
-  .yoga-about,
-  .weather-app-about {
-    display: block;
-    margin: 0 auto;
-    width: 90%;
-  }
-  .yoga-about {
-  }*/
 }
-/*@media (min-width: 769px) {
-  .yoga-container,
-  .weather-app-container,
-  .yogurt-container {
-    background: var(--secondary-color);
-    border-radius: 5px;
-    height: 360px;
-    width: 350px;
-  }
-  .yogurt-about {
-    height: 360px;
-  }
-}*/
