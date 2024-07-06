@@ -26,15 +26,26 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
-img {
-  background: #f9f7fe;
-  padding: 40px;
-  /*width: 100%;
-  height: auto;
-  object-fit: cover;
-  max-height: 199px;*/
+.yoga-picture {
+  background: var(--secondary-color);
+  padding: 100px 30px;
 }
-
+.weather-app-picture {
+  background: var(--secondary-color);
+  padding: 70px 5px;
+}
+.yogurt-picture {
+  background: var(--secondary-color);
+  padding: 30px 50px;
+}
+.special-one,
+.special-two,
+.special-three {
+  height: 310px;
+}
+.special-three {
+  width: 310px;
+}
 p {
   font-size: 18px;
   line-height: 1.5;
