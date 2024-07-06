@@ -105,3 +105,11 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  .yoga-button,
+  .weather-app-button,
+  .yogurt-button {
+    display: block;
+    text-align: center;
+  }
+}
