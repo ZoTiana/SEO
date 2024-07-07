@@ -95,7 +95,6 @@ p {
 .Yoga-about {
   display: block;
   margin: 45px auto;
-  max-width: 90%;
 }
 .Weather-app-about {
   display: block;
@@ -104,13 +103,14 @@ p {
 .Yogurt-about {
   display: block;
   margin: 20px auto;
-  max-width: 55%;
+  max-width: 60%;
 }
+.Yoga-about,
 .Weather-app-about {
-  max-width: 90%;
+  max-width: 85%;
 }
 .three-pictures {
-  max-width: 80%;
+  max-width: 90%;
 }
 .grid-one,
 .grid-two,
@@ -139,6 +139,8 @@ p {
   .yogurt-button {
     margin-bottom: 90px;
   }
+}
+@media (max-width: 500px) {
   .three-pictures {
     max-width: 95%;
   }
