@@ -86,33 +86,32 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-.Yoga-picture,
-.Weather-app-picture,
-.Yogurt-picture {
+.Yoga-about,
+.Weather-app-about,
+.Yogurt-about {
   display: block;
   margin: 0 auto;
 }
-.Yoga-picture {
+.Yoga-about {
   display: block;
   margin: 45px auto;
+  max-width: 90%;
 }
-.Weather-app-picture {
+.Weather-app-about {
   display: block;
   margin: 40px auto;
 }
-.Yogurt-picture {
+.Yogurt-about {
   display: block;
   margin: 20px auto;
   max-width: 55%;
 }
+.Weather-app-about {
+  max-width: 90%;
+}
 .three-pictures {
   max-width: 80%;
 }
-.Yoga-picture,
-.Weather-app-picture {
-  max-width: 70%;
-}
-
 .grid-one,
 .grid-two,
 .grid-three {
@@ -122,11 +121,30 @@ p {
   margin: 90px auto;
 }
 @media (max-width: 768px) {
+  p {
+    text-align: center;
+  }
+  .yoga-title,
+  .weather-title,
+  .yogurt-title {
+    text-align: center;
+    font-size: 30px;
+  }
   .yoga-button,
   .weather-app-button,
   .yogurt-button {
     display: block;
     text-align: center;
+  }
+  .yogurt-button {
+    margin-bottom: 90px;
+  }
+  .three-pictures {
+    max-width: 95%;
+  }
+  .grid-two,
+  .grid-three {
+    margin-top: 25px;
   }
   .contact {
     margin-top: 20px;
